@@ -1,6 +1,6 @@
 import { useParams, NavLink, Outlet } from "react-router-dom";
 import { getCategory } from "../api";
-export default function Category() {
+export default function Diploma() {
   const { catId } = useParams();
   const category = getCategory(catId);
   return (
