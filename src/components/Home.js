@@ -24,7 +24,7 @@ export default function Home({ title }) {
         coincidental. Information provided about the products or services is
         also fictitious and should not be construed as representative of actual
         products or services on the market in a similar product or service
-        category.
+        category. hi
       </p>
     </div>
   );
