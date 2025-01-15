@@ -1,9 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/red30-tech-logo.png";
-
 export default function Header() {
   const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
-
   return (
     <header className="container">
       <Link to="/">
@@ -14,7 +12,6 @@ export default function Header() {
           title="Red30 Tech | Home"
         />
       </Link>
-
       <nav>
         <NavLink to="/" className={getClass}>
           Home
@@ -24,6 +21,9 @@ export default function Header() {
         </NavLink>
         <NavLink to="/categories" className={getClass}>
           Categories
+        </NavLink>
+        <NavLink to="/register" className={getClass}>
+          Register
         </NavLink>
       </nav>
     </header>
